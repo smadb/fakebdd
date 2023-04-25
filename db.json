@@ -1,14 +1,35 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "nbrProjects": "2",
+    "projects": [
+        {
+            "id": "2",
+            "names": "projet postman 18/04/2023 2",
+            "IntegrationServers": [
+                {
+                    "name": "postman 2",
+                    "host": "hostname postman",
+                    "protocol": "https://",
+                    "port": "6666"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "projet modifié",
+            "IntegrationServers": [
+                {
+                    "name": "postman",
+                    "host": "hostname postman",
+                    "protocol": "https://",
+                    "port": "6666"
+                },
+                {
+                    "name": "is ajouté postman",
+                    "host": "hostname postman",
+                    "protocol": "https://",
+                    "port": "6666"
+                }
+            ]
+        }
+    ]
 }
